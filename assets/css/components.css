@@ -1,0 +1,55 @@
+.form {
+  margin-bottom: 100px;
+}
+.form label {
+  display: block;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+
+[type='text'],
+[type='email'],
+[type='tel'] {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+}
+
+.form textarea {
+  width: 100%;
+  height: 120px;
+  padding-left: 10px;
+  padding-top: 5px;
+}
+
+.form select {
+  width: 100%;
+  height: 40px;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+}
+
+[type="submit"] {
+  width: 120px;
+  height: 40px;
+  background-color: #ff0000;
+  border: 2px solid #fff;
+  color: #fff;
+  margin-left: auto;
+  display: block;
+  cursor: pointer;
+  transition-property: background-color, color, border-color;
+  transition-duration: 0.5s;
+}
+
+[type="submit"]:hover {
+  background-color: #fff;
+  color: #f00;
+  border-color: #f00;
+}
+
+footer {
+  height: 300px;
+  background-color: #000;
+}
